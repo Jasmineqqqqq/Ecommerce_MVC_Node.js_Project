@@ -1,0 +1,14 @@
+project-root/
+│
+├── index.js
+├── package.json
+├── public/
+│   └── assets (CSS, images, etc.)
+│
+├── src/
+│   ├── controllers/
+│   ├── middlewares/
+│   ├── views/
+│   └── routes/
+│
+└── README.md

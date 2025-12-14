@@ -1,63 +1,25 @@
-# Ecommerce_MVC_Node.js_Project
+# 🛒 Product & Inventory Management System (MVC – Node.js)
 
-🚀 Features
+This project is my first MVC-based application built with Node.js and Express.
+It demonstrates clean separation of concerns using Models, Views, and Controllers.
 
-MVC architecture (Controllers, Views, Routes)
+## 🚀 Features
+- MVC architecture
+- Authentication & Sessions
+- Product & Inventory CRUD
+- EJS templating
+- Middleware & file uploads
 
-User authentication (Register / Login / Logout)
+## 🛠 Tech Stack
+- Node.js, Express
+- EJS
+- express-session, cookie-parser
+- Multer, express-validator
 
-Session & cookie-based authentication
+## ▶️ How to Run
+1. npm install
+2. node index.js
+3. Open http://localhost:3000
 
-Product & inventory management (CRUD)
-
-Server-side rendering using EJS
-
-Middleware usage (auth, validation, file upload)
-
-File uploads using Multer
-
-Clean and structured project setup
-
-🧠 What I Learned
-
-How MVC architecture works in real-world Node.js applications
-
-Building protected routes using authentication middleware
-
-Managing sessions and cookies securely
-
-Structuring Express applications for scalability
-
-Handling form validation and file uploads
-
-Rendering dynamic data using EJS templates
-
-🛠 Tech Stack
-
-Backend: Node.js, Express.js
-
-View Engine: EJS, express-ejs-layouts
-
-Authentication: express-session, cookie-parser
-
-Validation: express-validator
-
-File Uploads: Multer
-
-Architecture: MVC (Model–View–Controller)
-
-
-project-root/
-│
-├── index.js
-├── package.json
-├── public/
-│   └── assets (CSS, images, etc.)
-│
-├── src/
-│   ├── controllers/
-│   ├── middlewares/
-│   ├── views/
-│   └── routes/
-│
-└── README.md
+## 👤 Author
+Built as my first MVC project using Node.js.
